@@ -1,16 +1,16 @@
 display_information:
-  name: Karma Chameleon
+  name: sammie8538
   description: Spreading good vibes, one karma leap at a time! 🦎✨
   background_color: "#242f36"
 features:
   app_home:
-    home_tab_enabled: false
+    home_tab_enabled: true
     messages_tab_enabled: true
-    messages_tab_read_only_enabled: true
-  bot_user:
+    messages_tab_read_only_enabled: false
+  bot_user:2
     display_name: Karma Chameleon
     always_online: true
-oauth_config:
+oauth_config:bypass google
   scopes:
     bot:
       - channels:history
